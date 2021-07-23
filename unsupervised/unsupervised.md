@@ -95,7 +95,7 @@ Here's my own little taxonomy of behaviourally-aware models:
 
 As you might have surmised from the previous paragraph, I'm excited to see the progress in models which explicitly integrate behaviour. Dimensionality reduction algorithms are often sanity-checked on known low-dimensional systems - e.g. the Van der Pol oscillator, the Lorenz system, balanced E-I networks. When they're deployed in the wild, however, evaluating them often boils down to matching them to known behaviour and experimental conditions. In essence, the behaviour *is* the ground truth. In this context, it is a missed opportunity to not explicitly model behaviour.  
 
-Some of the most exciting work in high-dimensional recordings explicitly relates behaviour to neural responses through a low-dimensional bottleneck - for instance, the reduced rank regression at the heart of Stringer et al. (2019), which finds a large amount of shared variance between face behaviour and visual responses (rank 16!). 
+Some of the most exciting work in high-dimensional recordings explicitly relates behaviour to neural responses through a low-dimensional bottleneck - for instance, the reduced rank regression at the heart of [Stringer et al. (2019)](https://science.sciencemag.org/content/364/6437/eaav7893.full?ijkey=PHaXxFoO8kMGw&keytype=ref&siteid=sci), which finds a large amount of shared variance between face behaviour and visual responses (rank 16!). 
 
 ![reduced-rank-regression.png](reduced-rank-regression.png)
 
